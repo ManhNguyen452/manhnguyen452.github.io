@@ -1,0 +1,78 @@
+﻿body {
+    background-color: #39f;
+}
+
+h1 {
+    text-align: center;
+    color: #ff0;
+    font-size: 47px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2 {
+    text-align: center;
+    color: #ff0;
+    font-size: 27px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p {
+    text-align: center;
+    font-style: italic;
+}
+
+.flag {
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    margin: 50px;
+}
+
+.flag-element {
+    animation: oscill 1s ease-in-out infinite alternate;
+    background: url('https://www.fotw.info/images/v/vn.gif');
+    background-size: 300px 100%;
+    position: relative;
+    height: 100%;
+    width: 1px;
+    display: inline-block;
+    box-shadow: 0 1px grey, 0 -1px gray;
+}
+
+@-webkit-keyframes oscill {
+    0% {
+        top: 5%;
+    }
+
+    100% {
+        top: -5%;
+    }
+}
+
+@-moz-keyframes oscill {
+    0% {
+        top: 5%;
+    }
+
+    100% {
+        top: -5%;
+    }
+}
+
+@-ms-keyframes oscill {
+    0% {
+        top: 5%;
+    }
+
+    100% {
+        top: -5%;
+    }
+}
+
+@keyframes oscill {
+    0% {
+        top: 5%;
+    }
+
+    100% {
+        top: -5%;
+    }
+}
